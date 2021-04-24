@@ -1,0 +1,75 @@
+/* Regra reset */
+*{ 
+    margin: 0;
+    padding: 0;
+} 
+
+html, body {
+    height: 100%;
+    /* body e html 100% o tamanho da tela */
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    background: rgb(39,56,156);
+    background: linear-gradient(180deg, rgba(39,56,156,1) 0%, rgba(54,77,204,1) 55%);
+}
+
+.avatar{
+    width: 80px;
+    border-radius: 50px;
+    border: 3px solid white;
+    box-shadow: 0px 0px 20px white;
+}
+
+h1{
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 2px;    
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.profile{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social{
+    display: flex; 
+    justify-content: space-around;    
+    list-style: none; /* Retira a bolinha da lista */
+    margin: 20px 0;
+}
+
+.social img{
+    width: 33px;
+}
+
+.links-list{
+    list-style: none;
+}
+
+.links-list li{
+    margin: 10px 20px;
+}
+
+.links-list li a{
+    background: white; 
+    padding: 15px 20px; 
+    display: block;
+    border-radius: 4px;
+    text-decoration: none; /* Retira a linha do link */
+    color: rgb(39,56,156);
+    font-weight: bold;
+} 
+
+.links-list li a span {
+    color:violet;
+    display: block;
+    margin-top: 10px;
+}
